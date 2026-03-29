@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "PalatinoLinotype";
+  src: url(fonts/palatinolinotype_roman.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PalatinoLinotype";
+  src: url(fonts/palatinolinotype_italic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
