@@ -203,7 +203,6 @@ document.addEventListener("DOMContentLoaded", function () {
     window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (reduceMotion) {
-    // If reduced motion: show full text immediately (still no layout shift)
     for (let tw of typewriters) {
       tw.started = true;
       tw.typed.innerHTML = renderTokens(tw.tokens, tw.tokens.length);
@@ -301,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // sec 4: gallery moves horizontally (left → right) while scrolling through the section
+  // sec 4
   let sec4 = document.querySelector("#sec_4");
   let gallerySec4 = document.querySelector(".photogallery_sec_4");
   if (sec4 && gallerySec4) {
