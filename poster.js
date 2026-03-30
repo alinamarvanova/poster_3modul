@@ -1,3 +1,4 @@
+//нейронка — cursor
 document.addEventListener("DOMContentLoaded", function () {
   // sound toggle (off by default)
   let soundBtn = document.querySelector(".sound_button");
