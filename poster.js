@@ -327,7 +327,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let sec5Circles = [];
     let sec5Running = false;
 
-    // Color palette - randomly select from this array
     let colorPalette = [
       { r: 144, g: 137, b: 82 },
       { r: 32, g: 45, b: 21 },
